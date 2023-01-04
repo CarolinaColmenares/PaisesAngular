@@ -7,6 +7,9 @@ import { Country } from '../interfaces/pais.interface';
   providedIn: 'root'
 })
 export class PaisService {
+  getPaisPorIdService(arg0: any): any {
+    throw new Error('Method not implemented.');
+  }
 
   private apiUrl: string = 'https://restcountries.com/v2'
 
